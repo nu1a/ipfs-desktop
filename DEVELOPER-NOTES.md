@@ -43,6 +43,10 @@ Manually test a few things that don't transfer well to automated testing:
    - Wait for CI to finish and confirm that it updated [Snap](https://snapcraft.io/ipfs-desktop), and is at least pending review on [Chocolatey](https://chocolatey.org/packages/ipfs-desktop#versionhistory).
    - Update the [Homebrew cask](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask).
 
+### Manually sign `.dmg` for running locally
+
+TBD
+
 ### Manually notarize `.dmg` with Apple
 
 These steps are only needed as a fallback if CI is not correctly notarizing the `.dmg` file. For context, see [#1365](https://github.com/ipfs-shipyard/ipfs-desktop/issues/1211).
